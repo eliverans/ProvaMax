@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flusso_Fatture_Compact</fullName>
+    <fields>ID_Flusso__c</fields>
+    <fields>Data_Pubblicazione__c</fields>
+    <fields>Numero_Fatture__c</fields>
+    <label>Flusso Fatture Compact</label>
+</CompactLayout>

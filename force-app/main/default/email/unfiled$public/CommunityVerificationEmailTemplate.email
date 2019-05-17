@@ -1,0 +1,12 @@
+Recentemente lei ha tentato di eseguire un'azione in {!Community_Name}.
+Azione: {!Action}
+
+Browser: {!Browser}
+Sistema operativo: {!Operating_System}
+Nome utente: {!User.Username}
+
+Per assicurarci che il suo account sia protetto, dobbiamo verificare la sua identità. Immetta il codice seguente quando {!Community_Name} lo richiede.
+
+Codice di verifica: {!Verification_Code}
+
+Se di recente non ha tentato di eseguire questa azione in {!Community_Name}, o se non riconosce questo browser o sistema operativo, contatti il suo amministratore {!Community_Name}.

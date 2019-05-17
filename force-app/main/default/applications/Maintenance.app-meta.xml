@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Maintenance</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>maintenance</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Maintenance page</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>true</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <label>Maintenance</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Maintenance</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Read Only Clone</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Maintenance</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <tabs>MaintenancePage</tabs>
+    <tabs>Stima__c</tabs>
+    <tabs>Challenge__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Maintenance_UtilityBar</utilityBar>
+</CustomApplication>

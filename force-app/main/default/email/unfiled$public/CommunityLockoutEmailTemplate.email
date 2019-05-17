@@ -1,0 +1,13 @@
+Salve {!Receiving_User.FirstName},
+
+            Abbiamo ricevuto la richiesta di reimpostazione per la sua password di {!Community_Name}. Per il momento non possiamo reimpostare la password. Il suo account è stato bloccato dopo un numero eccessivo di tentativi di accesso.
+
+            {!CASE(1,
+            IF(VALUE(PASSWORD_LOCK_TIME) > 0, 1, 0), "Riprovi tra " + PASSWORD_LOCK_TIME + " minuti.",
+            IF(VALUE(PASSWORD_LOCK_TIME) < 0, 1, 0), "Contatti il suo amministratore " + Community_Name + "per sbloccare il suo account.",
+            "")}
+
+            Se non ha richiesto una reimpostazione della password o non ha tentato di accedere al suo account di recente, contatti il suo amministratore {!Community_Name} o risponda a questa email.
+
+            Grazie,
+            {!Community_Name}

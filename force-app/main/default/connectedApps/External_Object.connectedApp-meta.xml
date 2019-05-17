@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>eliverani@salesforce.com</contactEmail>
+    <label>External_Object</label>
+    <oauthConfig>
+        <callbackUrl>https://smanetta-dev-ed.lightning.force.com</callbackUrl>
+        <consumerKey>3MVG9HxRZv05HarQ.Y.Na7l1s8_1w3h9f_KHh0YcfbHV35GjPjV2b4qoofJWIET2tKwuislTBP_cMjHsUiH_L</consumerKey>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

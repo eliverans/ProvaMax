@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_GymEvent</fullName>
+    <columns>NAME</columns>
+    <columns>Date__c</columns>
+    <columns>Distance_m__c</columns>
+    <columns>Workout_details__c</columns>
+    <columns>Type__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>All GymEvent</label>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>eliverani@salesforce.com</contactEmail>
+    <label>Mobile</label>
+    <logoUrl>https://login.salesforce.com/logos/Salesforce/SalesCloud/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>mymobileapp://callback</callbackUrl>
+        <consumerKey>3MVG9HxRZv05HarQ.Y.Na7l1s82o6SLTxbpdDXo6fIxga5GXVchXfcJz1fc.H6a0Cdg2ajL3g7S0rH_ESuuVa</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+</ConnectedApp>

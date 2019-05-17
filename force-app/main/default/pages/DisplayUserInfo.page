@@ -1,0 +1,15 @@
+<apex:page standardController="User"
+>
+    
+    <apex:pageBlock title="User Info">
+        <apex:pageBlockSection columns="1">
+            Profile: {! User.Profile.Name } <br/>
+
+                     {! $User.FirstName } {! $User.LastName } 
+         ({! IF($User.IsActive, $User.Username, 'inactive') })
+            {!$User.MobilePhone}
+                        
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+</apex:page>

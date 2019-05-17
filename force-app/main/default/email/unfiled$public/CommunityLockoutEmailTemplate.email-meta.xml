@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email ricevuta da un utente quando tenta di reimpostare la password ma è stato bloccato a causa di un numero eccessivo di tentativi di accesso non riusciti.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Comunità: email di blocco utente</name>
+    <style>none</style>
+    <subject>Sei stato bloccato da {!Community_Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

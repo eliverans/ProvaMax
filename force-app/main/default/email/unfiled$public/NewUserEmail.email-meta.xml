@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>NewUserEmail Template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>NewUserEmail</name>
+    <style>none</style>
+    <subject>Welcome to Smanetta Org</subject>
+    <textOnly>Dear {!User.FirstName},  welcome to Smanetta Org. 
+
+You will receive soon an email from the admin to reset the password.  
+
+Best Regards, EL</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

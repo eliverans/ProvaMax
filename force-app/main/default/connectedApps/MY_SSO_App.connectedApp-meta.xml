@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>eliverani@salesforce.com</contactEmail>
+    <label>MY SSO App</label>
+    <logoUrl>https://smanetta-dev-ed--c.eu11.content.force.com/servlet/servlet.ImageServer?id=0150Y000001teg5&amp;oid=00D0Y000002IjrK</logoUrl>
+    <samlConfig>
+        <acsUrl>https://my-smanetta-app.herokuapp.com/_saml</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>https://my-smanetta-app.herokuapp.com/_saml</entityUrl>
+        <issuer>https://smanetta-dev-ed.my.salesforce.com</issuer>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSubjectType>Username</samlSubjectType>
+    </samlConfig>
+    <startUrl>https://my-smanetta-app.herokuapp.com/_saml</startUrl>
+</ConnectedApp>

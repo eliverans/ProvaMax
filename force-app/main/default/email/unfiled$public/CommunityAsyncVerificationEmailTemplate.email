@@ -1,0 +1,8 @@
+Salve {!Receiving_User.FirstName},
+
+È necessario verificare l'indirizzo email per {!Community.Name}. Fare clic su:
+
+{!EmailVerify.Url}
+
+Grazie,
+{!Organization.Name}

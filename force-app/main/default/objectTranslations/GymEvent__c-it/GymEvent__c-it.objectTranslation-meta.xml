@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>GymEvent</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>GymEvents</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>GymEvent Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SwimEvent Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Gym --></label>
+        <name>Gym</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Swimming --></label>
+        <name>Swim</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Event date can&apos;t be in the future --></errorMessage>
+        <name>CheckEventDate</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://getinvoiceapp.herokuapp.com/canvas</canvasUrl>
+        <locations>PageLayout</locations>
+        <samlInitiationMethod>None</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>eliverani@salesforce.com</contactEmail>
+    <iconUrl>https://getinvoiceapp.herokuapp.com/icon.png</iconUrl>
+    <infoUrl>https://getinvoiceapp.herokuapp.com/welcome.jsp</infoUrl>
+    <label>getinvoiceapp</label>
+    <logoUrl>https://getinvoiceapp.herokuapp.com/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://getinvoiceapp.herokuapp.com/callback</callbackUrl>
+        <consumerKey>3MVG9HxRZv05HarQ.Y.Na7l1s88xrCZA_1ZvIH4oV4zVlUj6U7_reSbOfNLqHqomBOxLh7_GYwSJfZT6jzC72</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Chatter</scopes>
+    </oauthConfig>
+</ConnectedApp>

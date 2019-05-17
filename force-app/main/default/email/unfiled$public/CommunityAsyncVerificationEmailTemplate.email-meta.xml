@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Messaggio email ricevuto da un utente quando viene richiamata la verifica asincrona dell&#39;email.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Comunità: email di verifica utente</name>
+    <style>none</style>
+    <subject>Verifica la tua identità in {!Community_Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

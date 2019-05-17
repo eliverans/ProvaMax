@@ -1,0 +1,7 @@
+<aura:component>
+	  
+    <c:helloHeading/>
+	    
+    <p>Hello Lightning - Fantastic User Experience - Deploy with SFDX!</p>
+	    
+</aura:component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Cycling</masterLabel>
+        <translation><!-- Cycling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Running</masterLabel>
+        <translation><!-- Running --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swimming</masterLabel>
+        <translation><!-- Swimming --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workout</masterLabel>
+        <translation><!-- Workout --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

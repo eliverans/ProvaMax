@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Utente business</fullName>
+        <default>false</default>
+        <label>Utente business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responsabile</fullName>
+        <default>false</default>
+        <label>Responsabile</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Addetto agli acquisti</fullName>
+        <default>false</default>
+        <label>Addetto agli acquisti</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responsabile economia</fullName>
+        <default>false</default>
+        <label>Responsabile economia</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Valutatore</fullName>
+        <default>false</default>
+        <label>Valutatore</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sponsor esecutivo</fullName>
+        <default>false</default>
+        <label>Sponsor esecutivo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Influenzatore</fullName>
+        <default>false</default>
+        <label>Influenzatore</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Addetto agli acquisti reparto tecnico</fullName>
+        <default>false</default>
+        <label>Addetto agli acquisti reparto tecnico</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Altro</fullName>
+        <default>false</default>
+        <label>Altro</label>
+    </standardValue>
+</StandardValueSet>

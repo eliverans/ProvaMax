@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>smanetta310717@smanetta.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>newuseremail3@newuseremail3.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>integration@00d0y000002ijrkuas.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <name>Trailhead</name>
+</ReportFolder>

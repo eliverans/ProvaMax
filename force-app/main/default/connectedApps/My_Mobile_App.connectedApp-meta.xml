@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>eliverani@salesforce.com</contactEmail>
+    <label>My Mobile App</label>
+    <oauthConfig>
+        <callbackUrl>mymobileapp://callback</callbackUrl>
+        <consumerKey>3MVG9HxRZv05HarQ.Y.Na7l1s81wBD.K.ogBmXqmRTCb0zg_onxeCsD2jJaTIfgAxSkEmdJIOS0mU2tTnXHgF</consumerKey>
+        <scopes>Web</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+</ConnectedApp>
